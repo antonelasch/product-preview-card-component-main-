@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 610px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 175px;
+  margin-left: 420px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.escritas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.escritas p {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+.escritas button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+}
+.escritas b {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.escritas h1 {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+}
+
+.esc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+.esc2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.esc2 p {
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.esc2 h1 {
+  color: hsl(158, 36%, 37%);
+}
+
+#num {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */
