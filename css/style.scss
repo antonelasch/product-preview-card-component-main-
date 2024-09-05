@@ -46,7 +46,16 @@ img {
         height: 42px;
         width: 250px;
         border-radius: 10px;
-        margin-bottom: 50px
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+
+        & img {
+            width: 20px;
+            height: 20px;
+            margin-left: 70px;
+        }
     }
 
     & b {

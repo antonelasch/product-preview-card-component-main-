@@ -39,6 +39,14 @@ img {
   width: 250px;
   border-radius: 10px;
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.escritas button img {
+  width: 20px;
+  height: 20px;
+  margin-left: 70px;
 }
 .escritas b {
   font-family: "Montserrat", sans-serif;
